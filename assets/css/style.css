@@ -1,0 +1,149 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box
+}
+
+body {
+  background-image: url("../images/BG.png");
+  margin: 0
+}
+
+.links a {
+  color: black
+}
+
+.links {
+  float: right;
+  text-align: right;
+  background: #ffffff;
+  width: 225px;
+  height: 55px;
+  padding: 10px
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+  width: 960px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+  z-index: 100;
+  opacity: 0.9;
+  position: sticky;
+  top: 0;
+  padding-top: 10px;
+  background-color: #ffffff;
+  height: 70px;
+  border-bottom: 5px solid #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif
+}
+
+#div1 {
+  text-align: center;
+  color: white;
+  background: #4aaaa5;
+  padding: 10px;
+  width: 200px;
+  height: 55px;
+  float: left;
+  font-size: 1.25em
+}
+
+main {
+  background-color: #ffffff;
+  color: black;
+  padding: 10px;
+  border: 1px solid white;
+  margin-top: 50px;
+  margin-bottom: 50px
+}
+
+hr {
+  border-top: 2px solid #4aaaa5
+}
+
+.column {
+  height: 100%;
+  position: relative;
+  width: 60%;
+}
+
+.column img {
+  width: 100%;
+}
+
+.container2 {
+  display: inline-block;
+  position: relative;
+  width: 49%;
+}
+
+.banners {
+  color: white;
+  width: 100%;
+  height: 40px;
+  background: #4aaaa5;
+  position: absolute;
+  bottom: 20px;  /* margin-bottom: 20px; */
+}
+
+.banners p {
+  margin-top: 5px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+#indexpic {
+  height: 300px
+}
+
+footer {
+  opacity: 0.9;
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #666666;
+  width: 100%;
+  height: 50px;
+  border-top: 8px solid #4aaaa5
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 50%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container3 { 
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
